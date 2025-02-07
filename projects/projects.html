@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A websites showing Yutong Qin's online resume">
+    <link type="text/css" rel="stylesheet" href="projects.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+    <title>Projects | Resume</title>
+</head>
+
+<body>
+<div id="page-wrapper">
+    <!--header-->
+    <header>
+        <h1>Yutong Qin</h1>
+        <p>My online Resume</p>
+    </header>
+
+    <div id="content">
+        <!--navigation-->
+        <nav>
+            <ul>
+                <li><a href="../home/resume.html">Home</a></li>
+                <li><a href="../education/education.html">Education</a></li>
+                <li><a href="../internship/internship.html">Internship</a></li>
+                <li><a href="../achievements/achievements.html">Achievements</a></li>
+                <li><a href="../projects/projects.html">Projects</a></li>
+                <li><a href="../contact/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <!--main-->
+        <main>
+            <h3 id="main-title">Projects</h3>
+            <div id="main">
+                <p id="emfrm">
+                    <em>October 2022</em> | <strong>EMFRM 2022</strong><br>
+                    <em><strong>Research on the Existing Problems and Marketing Strategies
+                            of Chinese Traditional Costume in the Way of Live-streaming</strong></em><br>
+                    This study focus on the marketing of Chinese Traditional costumes, specifically the Hanfu,
+                    through social media and Live-streaming, both in the circumstance that Hanfu makers collaborate
+                    with influencers or do the marketing themselves.
+                </p>
+            </div>
+            <h3 id="calc-title">Calculator</h3>
+            <div id="calculator">
+                <div id="calc-input">
+                    <label for="first-number">First Number: </label><input type="text" id="first-number"><br>
+                    <label for="second-number">Second Number: </label><input type="text" id="second-number">
+                </div>
+                <br>
+                <div id="calc-button">
+                    <button type="button" onclick="addition()"> + </button>
+                    <button type="button" onclick="subtraction()"> - </button>
+                    <button type="button" onclick="multiplication()">* </button>
+                    <button type="button" onclick="division()">/ </button>
+                    <button type="button" onclick="power()">** </button>
+                    <button type="button" onclick="clearr()">Clear</button>
+                </div>
+                <h3 id="output"></h3>
+            </div>
+            <script src="projects.js"></script>
+        </main>
+    </div>
+    <!--footer-->
+    <footer>
+        <p>All Rights Reserved by Yutong Qin <a href="../credits/credits.html"> Credits</a> &copy;</p>
+    </footer>
+</div>
+</body>
+
+</html>
